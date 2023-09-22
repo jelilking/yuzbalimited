@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Cdnjs -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css"
+    />
+
+    <!-- Swiperjs -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <title>WeBuild</title>
+  </head>
+  <body>
+    <!-- Header Section Starts -->
+    <header class="header">
+      <div class="logo">
+        <img src="/images/logo.jpeg" width="40rem" />
+        <a href="#"><span>YUBZA LIMITED</span></a>
+      </div>
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#services">values</a>
+        <a href="#real">real estate</a>
+        <a href="#s&l">s & l</a>
+        <a href="#project">galleries</a>
+        <a href="#contact">contact</a>
+      </nav>
+
+      <div class="icons">
+        <div id="menu-btn" class="bx bx-menu-alt-left"></div>
+        <div id="info-btn" class="bx bxs-info-circle"></div>
+        <div id="search-btn" class="bx bx-search"></div>
+        <div id="login-btn" class="bx bx-user-circle"></div>
+      </div>
+
+      <form action="" class="search-form">
+        <input
+          type="search"
+          name=""
+          placeholder="search here..."
+          id="search-box"
+        />
+        <label for="search-box" class="bx bx-search"></label>
+      </form>
+
+      <form action="" class="login-form">
+        <h3>login form</h3>
+        <input type="email" placeholder="enter your email" class="box" />
+        <input type="password" placeholder="enter your password" class="box" />
+        <div class="flex">
+          <input type="checkbox" name="" id="remember-me" />
+          <label for="remember-me">remember me</label>
+          <a href="#">forgot password</a>
+        </div>
+        <input type="submit" value="login now" class="btn" />
+        <p>don't have an account <a href="#">create one</a></p>
+      </form>
+    </header>
+
+    <div class="contact-info">
+      <div id="close-contact-info" class="bx bx-x"></div>
+      <div class="info">
+        <i class="bx bxs-phone"></i>
+        <h3>phone number</h3>
+        <p>09086669313</p>
+        <p></p>
+      </div>
+
+      <div class="info">
+        <i class="bx bxs-envelope"></i>
+        <h3>email address</h3>
+        <p>yubza@gmail.com</p>
+        <p></p>
+      </div>
+
+      <div class="info">
+        <i class="bx bxs-map"></i>
+        <h3>office address</h3>
+        <p>15A Awolowo Road, Ikoyi, Lagos - RC:1839674</p>
+      </div>
+
+      <div class="share">
+        <a href="#" class="bx bxl-facebook-circle"></a>
+        <a href="#" class="bx bxl-twitter"></a>
+        <a href="#" class="bx bxl-instagram-alt"></a>
+        <a href="#" class="bx bxl-linkedin-square"></a>
+      </div>
+    </div>
+    <!-- Header Section Ends -->
+
+    <!-- Home Section Starts  -->
+
+    <section class="home" id="home">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+          <section
+            class="swiper-slide slide"
+            style="background: url(/images/home-slide\(7\).jpg) no-repeat"
+          >
+            <div class="content">
+              <h3>Excellence:</h3>
+              <p>
+                we strive for excellence in everything we do, delivering high
+                quality work exceeding expectation.
+              </p>
+              <a href="#about" class="btn">get started</a>
+            </div>
+          </section>
+
+          <section
+            class="swiper-slide slide"
+            style="background: url(/images/home-slide1.jpeg) no-repeat"
+          >
+            <div class="content">
+              <h3>Collaboration:</h3>
+              <p>
+                we believe in the power of collaboration and team work,
+                fostering a supportive and inclusive environment that encourages
+                the sharing of ideas and expertise.
+              </p>
+              <a href="#about" class="btn">get started</a>
+            </div>
+          </section>
+
+          <section
+            class="swiper-slide slide"
+            style="background: url(/images/realestate.jpg) no-repeat"
+          >
+            <div class="content">
+              <h3>Collaboration:</h3>
+              <p>
+                we believe in the power of collaboration and team work,
+                fostering a supportive and inclusive environment that encourages
+                the sharing of ideas and expertise.
+              </p>
+              <a href="#about" class="btn">get started</a>
+            </div>
+          </section>
+
+          <section
+            class="swiper-slide slide"
+            style="background: url(/images/home-slide.jpg) no-repeat"
+          >
+            <div class="content">
+              <h3>Customer Focus:</h3>
+              <p>
+                we prioritize our clients and their success, providing
+                personalized and attentive service to ensure their satisfaction.
+              </p>
+              <a href="#about" class="btn">get started</a>
+            </div>
+          </section>
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+
+    <!-- Home Section Ends  -->
+
+    <!-- About Section Start -->
+    <section class="about" id="about">
+      <h1 class="heading">about us</h1>
+      <div class="row">
+        <div class="video">
+          <video src="/images/video.mp4" loop muted autoplay></video>
+        </div>
+        <div class="content">
+          <p>
+            Yubza is a Limited Liability Company, incorporated under the
+            Companies act of 2011 by the federal republic of Nigeria (corporate
+            affairs commission) on September 2011 with RC NO 1839674
+          </p>
+          <p>
+            The company was founded on core values of Excellence, Innovation
+            sustainability and integrity, yubza prides herself in the quality of
+            her services delivery, technical competence, global out look and a
+            team of dedicated and highly experienced staff.
+          </p>
+          <p>
+            As an innovative company we are committed to delivering service
+            excellence in all areas of our business.
+          </p>
+          <p>
+            with process, equipment and the expertise of our people who work
+            together as a team committed to delivering successful project, we
+            have a collaborative approach that is flexible and responsive to the
+            need of our clients, and stake holders.
+          </p>
+          <a href="#services" class="btn">read more</a>
+        </div>
+      </div>
+      <div class="box-container">
+        <div class="box">
+          <h3>10+</h3>
+          <p>years of experience</p>
+        </div>
+
+        <div class="box">
+          <h3>1500+</h3>
+          <p>project completed</p>
+        </div>
+
+        <div class="box">
+          <h3>500+</h3>
+          <p>satisfied clients</p>
+        </div>
+
+        <div class="box">
+          <h3>580+</h3>
+          <p>active workers</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section  End -->
+
+    <!-- Service Section Starts -->
+
+    <!-- Service Section  Ends  -->
+    <section class="services" id="services">
+      <h1 class="heading">our core values</h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="/images/services1 (7).png" alt="" />
+          <h3>Excellence:</h3>
+          <p>
+            we strive for excellence in everything we do, delivering high
+            quality work exceeding expectation.
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="/images/services1 (6).png" alt="" />
+          <h3>Integrity:</h3>
+          <p>
+            we operate with integrity, maintaining honesty, transparency, and
+            ethical practices in all our interactions.
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="/images/services1 (5).png" alt="" />
+          <h3>Collaboration:</h3>
+          <p>
+            we believe in the power of collaboration and team work, fostering a
+            supportive and inclusive environment that encourages the sharing of
+            ideas and expertise.
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="/images/services1 (4).png" alt="" />
+          <h3>Innovation:</h3>
+          <p>
+            we embrace innovation and continuously seek new and creative
+            solutions to meet the evolving needs of clients.
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="/images/services1 (3).png" alt="" />
+          <h3>Customer Focus:</h3>
+          <p>
+            we prioritize our clients and their success, providing personalized
+            and attentive service to ensure their satisfaction.
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="/images/services1 (2).png" alt="" />
+          <h3>interior desingn</h3>
+          <p>
+            we bring functionality of space, ensuring that it serves its
+            intended purpose efficiently. This involves careful planning of
+            layouts, traffic flow, and the placement of furniture and fixtures.
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="/images/services1 (1).png" alt="" />
+          <h3>building maintainance</h3>
+          <p>
+            we ensure regular upkeep, repair, and management of a structure to
+            ensure its safety, functionality, and longevity. which encompasses a
+            wide range of tasks and activities aimed at preserving the physical
+            and operational integrity of a building, whether it's a residential
+            home, commercial facility, or public infrastructure.
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="/images/services1 (7).png" alt="" />
+          <h3>building renovation</h3>
+          <p>
+            we deal with the process of restoring or updating an existing
+            structure to improve its overall condition, functionality, and
+            aesthetic appeal.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- realestate Section Start -->
+    <section class="real" id="real">
+      <h1 class="heading">real estate</h1>
+      <div class="row">
+        <div class="content">
+          <h3>
+            Our Team Seasoned Consultant with over 20 years experience in the
+            Real Estate Industry are always available to guide you in building a
+            sustainable Real Estate portfolio
+          </h3>
+          <h1 class="heading">
+            under this sector We offer the following range of services
+          </h1>
+          <a href="#real" class="btn">read more</a>
+        </div>
+
+        <div class="video">
+          <video src="/images/video1.mp4" loop muted autoplay></video>
+        </div>
+      </div>
+      <div class="box-container">
+        <div class="box">
+          <h3>Advisory & Consultancy:</h3>
+          <p>
+            Our Consultants works close with our array of industry experts
+            enabling them to furnish our clients with up to date industry trend
+            and opportunities that other Consultants miss. We are Economists,
+            Business Strategists, Environmentalists, Change Managers, Investment
+            Specialists and Digital Experts, all united by desire to deliver
+            Optimal RIO.
+          </p>
+        </div>
+
+        <div class="box">
+          <h3>Portfolio management:</h3>
+          <p>
+            Because we always strive to provide the best outcome for our
+            clients, we have a team of experienced and dedicated portfolio
+            managers who work round the clock to provide solutions to all your
+            investment decisions.
+          </p>
+        </div>
+
+        <div class="box">
+          <h3>Build & sell:</h3>
+          <p>
+            we build and sell modern day buildings, putting cost and quality
+            into consideration with the desire to produce a more sustainable
+            future for all
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- realestate Section  End -->
+
+    <section class="shipping" id="s&l">
+      <h1 class="heading">shipping and logistics</h1>
+      <div class="row">
+        <div class="video">
+          <img src="/images/shipping.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>
+            We expertly manage the movement of goods on behalf of clients
+            between specified sources and destinations, combining different
+            transportation modes and types. To reduce their time-to-market,
+            improve customer service and mitigate risk, we also work in
+            partnership with our clients to integrate logistics functions in
+            their end-to-end supply chain.
+          </h3>
+
+          <a href="#s&l" class="btn">read more</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="farming" id="farming">
+      <h1 class="heading">
+        farming: With our experts in farming we offer the fowling services.
+      </h1>
+      <div class="box-container">
+        <div class="box">
+          <h3>croops and veggies</h3>
+        </div>
+
+        <div class="box">
+          <h3>poultry</h3>
+        </div>
+
+        <div class="box">
+          <h3>fish farming</h3>
+        </div>
+
+        <div class="box">
+          <h3>grains storage</h3>
+        </div>
+
+        <div class="box">
+          <h3>cattle farming</h3>
+        </div>
+      </div>
+    </section>
+    <!-- project section start  -->
+
+    <section class="projects" id="project">
+      <h1 class="heading">real estate gallery</h1>
+      <div class="box-container">
+        <a href="/images/real.jpg" class="box">
+          <div class="image">
+            <img src="/images/real.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>RE</h3>
+              <p>construction, desingn</p>
+            </div>
+            <i class="bx bx-plus"></i>
+          </div>
+        </a>
+
+        <a href="/images/real1.jpg" class="box">
+          <div class="image">
+            <img src="/images/real1.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>RE</h3>
+              <p>construction, desingn</p>
+            </div>
+            <i class="bx bx-plus"></i>
+          </div>
+        </a>
+
+        <a href="/images/real2.jpg" class="box">
+          <div class="image">
+            <img src="/images/real2.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>RE</h3>
+              <p>construction, desingn</p>
+            </div>
+            <i class="bx bx-plus"></i>
+          </div>
+        </a>
+
+        <a href="/images/real3.jpg" class="box">
+          <div class="image">
+            <img src="/images/real3.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>RE</h3>
+              <p>construction, desingn</p>
+            </div>
+            <i class="bx bx-plus"></i>
+          </div>
+        </a>
+        <a href="/images/real4.jpg" class="box">
+          <div class="image">
+            <img src="/images/real4.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>RE</h3>
+              <p>construction, desingn</p>
+            </div>
+            <i class="bx bx-plus"></i>
+          </div>
+        </a>
+
+        <a href="/images/real5.jpg" class="box">
+          <div class="image">
+            <img src="/images/real5.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>R/E</h3>
+              <p>construction, desingn</p>
+            </div>
+            <i class="bx bx-plus"></i>
+          </div>
+        </a>
+        <a href="/images/real6.jpg" class="box">
+          <div class="image">
+            <img src="/images/real5.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>R/e</h3>
+              <p>construction</p>
+            </div>
+            <i class="bx bx-plus"></i>
+          </div>
+        </a>
+        <a href="/images/real7.jpg" class="box">
+          <div class="image">
+            <img src="/images/real5.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>RE</h3>
+              <p>construction, desingn</p>
+            </div>
+            <i class="bx bx-plus"></i>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="logistics" id="logistics">
+      <h1 class="heading">shipping and logistic gallery</h1>
+      <div class="box-container">
+        <a href="/images/logistic.jpg" class="box">
+          <div class="image">
+            <img src="/images/logistic.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>RE</h3>
+              <p>construction, desingn</p>
+            </div>
+            <i class="bx bx-plus"></i>
+          </div>
+        </a>
+
+        <a href="/images/logistic1.jpg" class="box">
+          <div class="image">
+            <img src="/images/logistic1.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>R/E</h3>
+              <p>construction, desingn</p>
+            </div>
+            <i class="bx bx-plus"></i>
+          </div>
+        </a>
+        <a href="/images/logistic2.jpg" class="box">
+          <div class="image">
+            <img src="/images/logistic2.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>R/e</h3>
+              <p>construction</p>
+            </div>
+            <i class="bx bx-plus"></i>
+          </div>
+        </a>
+        <a href="/images/logistic3.jpg" class="box">
+          <div class="image">
+            <img src="/images/logistic3.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>RE</h3>
+              <p>construction, desingn</p>
+            </div>
+            <i class="bx bx-plus"></i>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="farm" id="farm">
+      <h1 class="heading">farm gallery</h1>
+      <div class="box-container">
+        <a href="/images/farm.jpg" class="box">
+          <div class="image">
+            <img src="/images/farm.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>RE</h3>
+              <p>construction, desingn</p>
+            </div>
+            <i class="bx bx-plus"></i>
+          </div>
+        </a>
+
+        <a href="/images/farm1.jpg" class="box">
+          <div class="image">
+            <img src="/images/farm1.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>R/E</h3>
+              <p>construction, desingn</p>
+            </div>
+            <i class="bx bx-plus"></i>
+          </div>
+        </a>
+        <a href="/images/farm2.jpg" class="box">
+          <div class="image">
+            <img src="/images/farm2.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>R/e</h3>
+              <p>construction</p>
+            </div>
+            <i class="bx bx-plus"></i>
+          </div>
+        </a>
+        <a href="/images/farm3.jpg" class="box">
+          <div class="image">
+            <img src="/images/farm3.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>RE</h3>
+              <p>construction, desingn</p>
+            </div>
+            <i class="bx bx-plus"></i>
+          </div>
+        </a>
+      </div>
+    </section>
+    <!-- project section ends   -->
+
+    <!-- Reviews slider starts -->
+
+    <section class="reviews">
+      <h1 class="heading">our promise</h1>
+      <div class="swiper reviews-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <p> To deliver on our word</p>
+            <div class="user">
+              <img src="/images/logo.jpeg" alt="" />
+
+              <div class="info">
+                <h3>YUBZA LIMITED</h3>
+
+                <div class="stars">
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <p> To put or core values first</p>
+            <div class="user">
+              <img src="/images/logo.jpeg" alt="" />
+
+              <div class="info">
+                <h3>YUBZA LIMITED.</h3>
+
+                <div class="stars">
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <p>
+              To continue to strive hard to build a sustainable future fo all
+            </p>
+            <div class="user">
+              <img src="/images/logo.jpeg" alt="" />
+
+              <div class="info">
+                <h3>Lorem, ipsum dolor.</h3>
+
+                <div class="stars">
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Reviews slider starts -->
+
+    <!-- Pricing Section starts -->
+
+    <!-- <section class="pricing" id="pricing">
+      <h1 class="heading">our pricing</h1>
+      <div class="box-container">
+        <div class="box">
+          <i class="bx bxs-home"></i>
+          <h3>basic plan</h3>
+          <div class="price"><span>$</span>250<span>/mo</span></div>
+          <div class="list">
+            <p>interior desingn</p>
+            <p>refurbishment</p>
+            <p>material supply</p>
+            <p>maintainance</p>
+            <p>24/7 support</p>
+          </div>
+          <a href="#" class="btn">choose plan</a>
+        </div>
+
+        <div class="box">
+          <i class="bx bxs-building-house"></i>
+          <h3>preimium plan</h3>
+          <div class="price"><span>$</span>450<span>/mo</span></div>
+          <div class="list">
+            <p>interior desingn</p>
+            <p>refurbishment</p>
+            <p>material supply</p>
+            <p>maintainance</p>
+            <p>24/7 support</p>
+          </div>
+          <a href="#" class="btn">choose plan</a>
+        </div>
+
+        <div class="box">
+          <i class="bx bxs-city"></i>
+          <h3>ultimate plan</h3>
+          <div class="price"><span>$</span>950<span>/mo</span></div>
+          <div class="list">
+            <p>interior desingn</p>
+            <p>refurbishment</p>
+            <p>material supply</p>
+            <p>maintainance</p>
+            <p>24/7 support</p>
+          </div>
+          <a href="#" class="btn">choose plan</a>
+        </div>
+      </div>
+    </section> -->
+    <!-- Pricing Section ends -->
+
+    <!-- Contact Section starts -->
+
+    <section class="contact" id="contact">
+      <h1 class="heading">contact us</h1>
+      <div class="row">
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.615382516879!2d3.408682574435372!3d6.443406524090084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b28c494713b%3A0xa8defceadafd3b4b!2s15a%20Awolowo%20Rd%2C%20Ikoyi%20106104%2C%20Lagos!5e0!3m2!1sen!2sng!4v1695371234175!5m2!1sen!2sng"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+
+        <form action="">
+          <h3>get in touch</h3>
+          <input type="text" placeholder="name" class="box" />
+          <input type="email" placeholder="email" class="box" />
+          <input type="number" placeholder="phone" class="box" />
+          <textarea
+            name=""
+            id=""
+            placeholder="message"
+            cols="30"
+            rows="10"
+            class="box"
+          ></textarea>
+
+          <input type="submit" value="send message" class="btn" />
+        </form>
+      </div>
+    </section>
+    <!-- Contact Section ends   -->
+
+    <!-- cdnjs library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+    <!-- swiperjs javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- javascript -->
+    <script src="sandbox.js"></script>
+  </body>
+</html>
