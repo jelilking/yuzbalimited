@@ -42,9 +42,9 @@
 
 @mixin iconsBox() {
   font-size: 2rem;
-  height: 5rem;
-  width: 5rem;
-  line-height: 5rem;
+  height: 4rem;
+  width: 4rem;
+  line-height: 4rem;
   background: var(--light-bg);
   color: var(--black);
   cursor: pointer;
@@ -142,7 +142,7 @@ section {
   .logo {
     display: flex;
     align-items: center;
-    @include titleText(2.5rem);
+    @include titleText(1.7rem);
     span {
       color: var(--yellow);
     }

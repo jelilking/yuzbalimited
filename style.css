@@ -87,7 +87,7 @@ section {
 .header .logo {
   display: flex;
   align-items: center;
-  font-size: 2.5rem;
+  font-size: 1.7rem;
   color: var(--black);
   text-transform: capitalize;
 }
@@ -105,9 +105,9 @@ section {
 }
 .header .icons div {
   font-size: 2rem;
-  height: 5rem;
-  width: 5rem;
-  line-height: 5rem;
+  height: 4rem;
+  width: 4rem;
+  line-height: 4rem;
   background: var(--light-bg);
   color: var(--black);
   cursor: pointer;
@@ -255,9 +255,9 @@ section {
 }
 .contact-info .info i {
   font-size: 2rem;
-  height: 5rem;
-  width: 5rem;
-  line-height: 5rem;
+  height: 4rem;
+  width: 4rem;
+  line-height: 4rem;
   background: var(--light-bg);
   color: var(--black);
   cursor: pointer;
@@ -286,9 +286,9 @@ section {
 }
 .contact-info .share a {
   font-size: 2rem;
-  height: 5rem;
-  width: 5rem;
-  line-height: 5rem;
+  height: 4rem;
+  width: 4rem;
+  line-height: 4rem;
   background: var(--light-bg);
   color: var(--black);
   cursor: pointer;
