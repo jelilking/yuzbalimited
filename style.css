@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
 :root {
-  --yellow: blue;
+  --yellow: green;
   --black: #111;
   --white: #fff;
   --light-color: #666;
@@ -624,7 +624,7 @@ section {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .logistics .box-container .box .content {
   display: flex;
@@ -679,7 +679,7 @@ section {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .farm .box-container .box .content {
   display: flex;
@@ -734,7 +734,7 @@ section {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .projects .box-container .box .content {
   display: flex;
@@ -921,11 +921,11 @@ section {
     border-top: var(--border);
     border-bottom: var(--border);
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
   }
   .header .navbar.active {
     -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%);
-            clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%);
   }
   .header .navbar a {
     display: block;
@@ -954,4 +954,4 @@ section {
     font-size: 3rem;
     padding: 1rem 0;
   }
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
